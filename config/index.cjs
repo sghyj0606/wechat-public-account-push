@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx6f6d48cdb70ab0a7',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '1ac92240ae8806a12f57b9f5e833449d ',
+  APP_SECRET: '',
 
   PROVINCE: '广西',
   CITY: '南宁',
@@ -45,9 +45,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oiwEn6PTI7WLWCPmTH4RfmegIjmU',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '	leZuRuOg6L-uVbvD1N0s7Zk0Fczpwpzli0ucsDE8nyc',
+      useTemplateId: '',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
