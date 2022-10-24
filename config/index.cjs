@@ -15,11 +15,23 @@ const USER_CONFIG = {
 
   PROVINCE: '广西',
   CITY: '南宁',
+  
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
-    key: '2abe96e5a3b50a36fb461abd56aa4ca4',
+    key: '',
     
+    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    morningGreeting: true,
+  
+    // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    eveningGreeting: true,
+  
+    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: 3,
+
   },
+  
   
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -51,6 +63,7 @@ const USER_CONFIG = {
           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
         },
       ],
+      
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
