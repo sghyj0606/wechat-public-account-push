@@ -20,9 +20,9 @@ const USER_CONFIG = {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: '2abe96e5a3b50a36fb461abd56aa4ca4',
     
-    {{tian_api_weather_lowest_{offset}.DATA}}
+    {{tian_api_weather_lowest_{offset}.DATA}},
   
-    {{tian_api_weather_highest_{offset}.DATA}}
+    {{tian_api_weather_highest_{offset}.DATA}},
 
   },
   
